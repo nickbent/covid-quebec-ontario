@@ -1,0 +1,8 @@
+plotly
+numpy
+pandas
+selenium
+scrapy
+scrapy-wayback-machine
+datetime
+webdrivermanager
