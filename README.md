@@ -8,11 +8,13 @@ https://canadian-covid-visualizations.netlify.com/?fbclid=IwAR17oeIrlenhQTyC0mRv
 To Scrape the latest Quebec information from 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/'
 
 `cd scrapers/quebec`
+
 `scrapy crawl table_quebec`
 
 For the latest data from 'https://www.ontario.ca/page/2019-novel-coronavirus'
 
 `cd scrapers/ontario`
+
 `scrapy crawl table_ontario`
 
 The scraped data will go into `data/PROVINCE` with a timestamped file
