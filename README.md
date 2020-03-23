@@ -11,6 +11,9 @@ To Scrape the latest Quebec information from https://www.quebec.ca/sante/problem
 
 `scrapy crawl table_quebec`
 
+`data/quebec/Quebec.csv` contains all information from previous days which I got manually from the Way Back Machine. I will be updating this manually since I am getting data from the above link and Sante quebec twitter daily. 
+
+
 For the latest data from 'https://www.ontario.ca/page/2019-novel-coronavirus'
 
 `cd scrapers/ontario`
@@ -19,7 +22,7 @@ For the latest data from 'https://www.ontario.ca/page/2019-novel-coronavirus'
 
 The scraped data will go into `data/PROVINCE` with a timestamped file
 
-`data/quebec/Quebec.csv` contains all information from previous days which I got manually from the Way Back Machine.
+
 
 
 The visualizations are made in `notebooks/Graphing Ontario` and `notebooks/Graphing Quebec`
@@ -27,6 +30,8 @@ The visualizations are made in `notebooks/Graphing Ontario` and `notebooks/Graph
 #TODO
 
 Change the visualizations from notebooks to scripts
+
+Scrape sante quebec twitter to get updates 
 
 Have not figured out how to scrape the way back machine yet. Currently using https://github.com/sangaline/scrapy-wayback-machine but have not got it to work. The spider is currently in `scrapers/ontario/ontario/spiders/past_tables.py`. I have added the required changes to `scrapers/ontario/ontario/settings.py` but still not working. 
 
