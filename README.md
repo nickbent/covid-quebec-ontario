@@ -17,7 +17,7 @@ For the latest data from 'https://www.ontario.ca/page/2019-novel-coronavirus'
 
 The scraped data will go into `data/PROVINCE` with a timestamped file
 
-`data/Quebec/quebec.csv` contains all information from previous days which I got manually from the Way Back Machine.
+`data/quebec/Quebec.csv` contains all information from previous days which I got manually from the Way Back Machine.
 
 
 The visualizations are made in `notebooks/Graphing Ontario` and `notebooks/Graphing Quebec`
