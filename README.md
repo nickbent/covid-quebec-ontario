@@ -33,6 +33,9 @@ Change the visualizations from notebooks to scripts
 
 Scrape sante quebec twitter to get updates 
 
+Raw data for ontario is available at 
+https://github.com/Russell-Pollari/ontario-covid19/blob/master/data/processed/all_cases.json
+
 Was not able to get `scrapy-waybackmachine`to work, so will be doing it more manually. Need to manually add all urls from wayback machine from ontario govt into `start_urls` in `past_tables` and then scrape. 
 
 
