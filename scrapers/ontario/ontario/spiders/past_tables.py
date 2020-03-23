@@ -29,6 +29,9 @@ class TableSpider(scrapy.Spider):
         data = []
         headers = ["case number", "patient", "public health unit", "transmission", "status"] 
 
+        #Might need these css locators for tables in past
+        #//*[@id="pagebody"]/table[2]/tbody
+        #//*[@id="pagebody"]/table[3]/tbody
         page = self.driver.find_element_by_xpath('//*[@id="pagebody"]') 
         divisions = page.find_elements(By.TAG_NAME, "div")
         for div in divisions : 
