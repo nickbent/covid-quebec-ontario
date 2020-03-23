@@ -15,12 +15,12 @@ SPIDER_MODULES = ['ontario.spiders']
 NEWSPIDER_MODULE = 'ontario.spiders'
 
 # enable the middleware
-DOWNLOADER_MIDDLEWARES = {
-    'scrapy_wayback_machine.WaybackMachineMiddleware': 5,
-}
+# DOWNLOADER_MIDDLEWARES = {
+#     'scrapy_wayback_machine.WaybackMachineMiddleware': 5,
+# }
 
 # o
-WAYBACK_MACHINE_TIME_RANGE = ('20200309', '220200321')
+#WAYBACK_MACHINE_TIME_RANGE = ('20200311', '220200322')
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'ontario (+http://www.yourdomain.com)'

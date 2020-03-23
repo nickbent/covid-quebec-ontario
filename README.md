@@ -33,6 +33,6 @@ Change the visualizations from notebooks to scripts
 
 Scrape sante quebec twitter to get updates 
 
-Have not figured out how to scrape the way back machine yet. Currently using https://github.com/sangaline/scrapy-wayback-machine but have not got it to work. The spider is currently in `scrapers/ontario/ontario/spiders/past_tables.py`. I have added the required changes to `scrapers/ontario/ontario/settings.py` but still not working. 
+Was not able to get `scrapy-waybackmachine`to work, so will be doing it more manually. Need to manually add all urls from wayback machine from ontario govt into `start_urls` in `past_tables` and then scrape. 
 
 

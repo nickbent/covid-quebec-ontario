@@ -50,7 +50,7 @@ class TableSpider(scrapy.Spider):
 
 
 
-        date = str(dt.now())
+        date = str(dt.now().strftime('%Y%m%d%H%M%S'))
         path = '../../data/ontario/table_person_ontario_' +date+'.jsonl'
         with open(path, 'w') as outfile:
             for entry in data:
