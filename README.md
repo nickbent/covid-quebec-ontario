@@ -20,9 +20,18 @@ For the latest data from 'https://www.ontario.ca/page/2019-novel-coronavirus'
 
 `scrapy crawl table_ontario`
 
+
+Past data was taken from
+https://github.com/Russell-Pollari/ontario-covid19/blob/master/data/processed/all_cases.json
+
 The scraped data will go into `data/PROVINCE` with a timestamped file
 
+To update the ontario data files
 
+`python scripts/merge_new_cases.py`
+`python scripts/merge_new_total.py`
+
+and then move the files that were just scraped in to `data/PROVINCE/past/`
 
 
 The visualizations are made in `notebooks/Graphing Ontario` and `notebooks/Graphing Quebec`
@@ -32,10 +41,5 @@ The visualizations are made in `notebooks/Graphing Ontario` and `notebooks/Graph
 Change the visualizations from notebooks to scripts
 
 Scrape sante quebec twitter to get updates 
-
-Raw data for ontario is available at 
-https://github.com/Russell-Pollari/ontario-covid19/blob/master/data/processed/all_cases.json
-
-Was not able to get `scrapy-waybackmachine`to work, so will be doing it more manually. Need to manually add all urls from wayback machine from ontario govt into `start_urls` in `past_tables` and then scrape. 
 
 
