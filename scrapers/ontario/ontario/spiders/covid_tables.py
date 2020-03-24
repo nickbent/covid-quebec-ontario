@@ -18,42 +18,59 @@ class TableSpider(scrapy.Spider):
     def __init__(self):
         self.driver = webdriver.Chrome(ChromeDriverManager().install()) 
 
+    def parse_table(self, table):
+        rows = table.find_elements(By.TAG_NAME, "tr")
+        for row in rows:
+            row_dict = {}
+            for ix, element in enumerate(row.find_elements(By.TAG_NAME, "td")):
+                row_dict[self.headers[ix]] = element.text
+            self.data.append(row_dict)
+
 
     def parse(self, response):
         self.driver.get(response.url)
         time.sleep(5)
 
-        data = []
-        headers = ["case number", "patient", "public health unit", "transmission", "status"] 
+        self.data = []
+        self.headers = ["case number", "patient", "public health unit", "transmission", "status"] 
 
-        page = self.driver.find_element_by_xpath('//*[@id="pagebody"]') 
-        divisions = page.find_elements(By.TAG_NAME, "div")
-        for div in divisions : 
-            table = div.find_elements(By.TAG_NAME, "tbody")
-            if len(table) == 0 : 
-                continue
+        #Might need these css locators for tables in past
+        #//*[@id="pagebody"]/table[2]/tbody
+        #//*[@id="pagebody"]/table[3]/tbody
+        page = self.driver.find_element_by_xpath('//*[@id="pagebody"]')
+        tables =  page.find_elements(By.TAG_NAME, "table")
 
-            rows = table[0].find_elements(By.TAG_NAME, "tr")
-            for row in rows:
-                row_dict = {}
-                for ix, element in enumerate(row.find_elements(By.TAG_NAME, "td")):
-                    row_dict[headers[ix]] = element.text
-                data.append(row_dict)
-            
-
-        total_table = self.driver.find_element_by_xpath('//*[@id="pagebody"]/table/tbody')
-        rows = total_table.find_elements(By.TAG_NAME, "tr")
+        total_table = tables[0].find_elements(By.TAG_NAME, "tbody")
+        rows = total_table[0].find_elements(By.TAG_NAME, "tr")
         total = {}
         for row in rows:
             elements = row.find_elements(By.TAG_NAME, "td")
             total[elements[0].text] = elements[1].text
 
 
+        if len(tables) > 0 : 
+
+            for t in tables[1:]:
+                table = t.find_elements(By.TAG_NAME, "tbody")
+
+                self.parse_table(table[0])
+
+
+        else : 
+
+            divisions = page.find_elements(By.TAG_NAME, "div")
+            for div in divisions : 
+                table = div.find_elements(By.TAG_NAME, "tbody")
+                if len(table) == 0 : 
+                    continue
+
+                self.parse_table(table[0])
+
 
         date = dt.now().strftime('%Y-%m-%dT%H:%M:%S')
         path = '../../data/ontario/table_person_ontario_' +date+'.jsonl'
         with open(path, 'w') as outfile:
-            for entry in data:
+            for entry in self.data:
                 json.dump(entry, outfile)
                 outfile.write('\n')
 
