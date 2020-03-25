@@ -584,3 +584,103 @@
 {"number": "586", "date": "2020-03-24T14:40:13", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
 {"number": "587", "date": "2020-03-24T14:40:13", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
 {"number": "588", "date": "2020-03-24T14:40:13", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "589", "date": "2020-03-25T10:55:44", "age": 70, "gender": "Male", "public_health_unit": "Wellington Dufferin Guelph", "transmission": "travel (Spain, France)", "city": "Guelph", "status": "self-isolating"}
+{"number": "590", "date": "2020-03-25T10:55:44", "age": 20, "gender": "Female", "public_health_unit": "York", "transmission": "travel (Dominican)", "city": "York", "status": "self-isolating"}
+{"number": "591", "date": "2020-03-25T10:55:44", "age": 40, "gender": "Female", "public_health_unit": "Toronto", "transmission": "pending", "city": "Toronto", "status": "self-isolating"}
+{"number": "592", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Male", "public_health_unit": "Peel", "transmission": "pending", "city": "Peel", "status": "self-isolating"}
+{"number": "593", "date": "2020-03-25T10:55:44", "age": 60, "gender": "Male", "public_health_unit": "Peel", "transmission": "travel (UK)", "city": "Peel", "status": "self-isolating"}
+{"number": "594", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Male", "public_health_unit": "Halton", "transmission": "close contact", "city": "Oakville", "status": "self-isolating"}
+{"number": "595", "date": "2020-03-25T10:55:44", "age": 60, "gender": "Male", "public_health_unit": "Peel", "transmission": "pending", "city": "Peel", "status": "self-isolating"}
+{"number": "596", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Female", "public_health_unit": "Porcupine District", "transmission": "pending", "city": "Timmins", "status": "hospitalized"}
+{"number": "597", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Male", "public_health_unit": "Porcupine District", "transmission": "close contact", "city": "Timmins", "status": "hospitalized"}
+{"number": "598", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Male", "public_health_unit": "Durham", "transmission": "close contact", "city": "Whitby", "status": "self-isolating"}
+{"number": "599", "date": "2020-03-25T10:55:44", "age": 40, "gender": "Male", "public_health_unit": "Toronto", "transmission": "close contact", "city": "Toronto", "status": "self-isolating"}
+{"number": "600", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Male", "public_health_unit": "Toronto", "transmission": "close contact", "city": "Toronto", "status": "pending"}
+{"number": "601", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Female", "public_health_unit": "Toronto", "transmission": "close contact", "city": "Toronto", "status": "self-isolating"}
+{"number": "602", "date": "2020-03-25T10:55:44", "age": 70, "gender": "Male", "public_health_unit": "Porcupine District", "transmission": "travel (USA)", "city": "Timmins", "status": "self-isolating"}
+{"number": "603", "date": "2020-03-25T10:55:44", "age": 60, "gender": "Male", "public_health_unit": "Windsor Essex", "transmission": "travel (USA)", "city": "Windsor", "status": "self-isolating"}
+{"number": "604", "date": "2020-03-25T10:55:44", "age": 80, "gender": "Female", "public_health_unit": "Middlesex London", "transmission": "close contact", "city": "London", "status": "hospitalized"}
+{"number": "605", "date": "2020-03-25T10:55:44", "age": 70, "gender": "Female", "public_health_unit": "Middlesex London", "transmission": "travel (Philippines)", "city": "London", "status": "self-isolating"}
+{"number": "606", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Female", "public_health_unit": "Hamilton", "transmission": "pending", "city": "Hamilton", "status": "pending"}
+{"number": "607", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Male", "public_health_unit": "Halton", "transmission": "pending", "city": "Oakville", "status": "pending"}
+{"number": "608", "date": "2020-03-25T10:55:44", "age": 40, "gender": "Female", "public_health_unit": "Hamilton", "transmission": "pending", "city": "Hamilton", "status": "pending"}
+{"number": "609", "date": "2020-03-25T10:55:44", "age": 70, "gender": "Female", "public_health_unit": "Hamilton", "transmission": "pending", "city": "Hamilton", "status": "pending"}
+{"number": "610", "date": "2020-03-25T10:55:44", "age": 70, "gender": "Female", "public_health_unit": "Hamilton", "transmission": "pending", "city": "Hamilton", "status": "pending"}
+{"number": "611", "date": "2020-03-25T10:55:44", "age": 70, "gender": "Female", "public_health_unit": "Halton", "transmission": "travel (Spain)", "city": "Oakville", "status": "hospitalized"}
+{"number": "612", "date": "2020-03-25T10:55:44", "age": 20, "gender": "Male", "public_health_unit": "Simcoe Muskoka", "transmission": "pending", "city": "Simcoe", "status": "self-isolating"}
+{"number": "613", "date": "2020-03-25T10:55:44", "age": 40, "gender": "Male", "public_health_unit": "Windsor Essex", "transmission": "pending", "city": "Windsor", "status": "pending"}
+{"number": "614", "date": "2020-03-25T10:55:44", "age": 20, "gender": "Male", "public_health_unit": "Kingston Frontenac Lennox Addington", "transmission": "travel (Mexico)", "city": "Kingston", "status": "self-isolating"}
+{"number": "615", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Female", "public_health_unit": "Hastings Prince Edward", "transmission": "travel (USA)", "city": "Belleville", "status": "self-isolating"}
+{"number": "616", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Female", "public_health_unit": "Haliburton Kawartha Pineridge", "transmission": "travel (Spain)", "city": "Port Hope", "status": "self-isolating"}
+{"number": "617", "date": "2020-03-25T10:55:44", "age": 10, "gender": "Female", "public_health_unit": "Kingston Frontenac Lennox Addington", "transmission": "close contact", "city": "Kingston", "status": "self-isolating"}
+{"number": "618", "date": "2020-03-25T10:55:44", "age": 10, "gender": "Male", "public_health_unit": "Kingston Frontenac Lennox Addington", "transmission": "close contact", "city": "Kingston", "status": "self-isolating"}
+{"number": "619", "date": "2020-03-25T10:55:44", "age": 40, "gender": "Male", "public_health_unit": "Kingston Frontenac Lennox Addington", "transmission": "close contact", "city": "Kingston", "status": "pending"}
+{"number": "620", "date": "2020-03-25T10:55:44", "age": 70, "gender": "Female", "public_health_unit": "Hastings Prince Edward", "transmission": "travel (Bahamas)", "city": "Belleville", "status": "self-isolating"}
+{"number": "621", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Male", "public_health_unit": "Toronto", "transmission": "travel (Spain)", "city": "Toronto", "status": "self-isolating"}
+{"number": "622", "date": "2020-03-25T10:55:44", "age": 60, "gender": "Female", "public_health_unit": "Toronto", "transmission": "pending", "city": "Toronto", "status": "pending"}
+{"number": "623", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Female", "public_health_unit": "Toronto", "transmission": "pending", "city": "Toronto", "status": "pending"}
+{"number": "624", "date": "2020-03-25T10:55:44", "age": 60, "gender": "Male", "public_health_unit": "Toronto", "transmission": "pending", "city": "Toronto", "status": "pending"}
+{"number": "625", "date": "2020-03-25T10:55:44", "age": 40, "gender": "Male", "public_health_unit": "Toronto", "transmission": "pending", "city": "Toronto", "status": "pending"}
+{"number": "626", "date": "2020-03-25T10:55:44", "age": 90, "gender": "Female", "public_health_unit": "Toronto", "transmission": "pending", "city": "Toronto", "status": "pending"}
+{"number": "627", "date": "2020-03-25T10:55:44", "age": 40, "gender": "Female", "public_health_unit": "Niagara", "transmission": "travel (USA)", "city": "Niagara", "status": "self-isolating"}
+{"number": "628", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Female", "public_health_unit": "Toronto", "transmission": "close contact", "city": "Toronto", "status": "self-isolating"}
+{"number": "629", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Male", "public_health_unit": "Toronto", "transmission": "pending", "city": "Toronto", "status": "self-isolating"}
+{"number": "630", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Female", "public_health_unit": "York", "transmission": "pending", "city": "York", "status": "pending"}
+{"number": "631", "date": "2020-03-25T10:55:44", "age": 40, "gender": "Female", "public_health_unit": "Toronto", "transmission": "pending", "city": "Toronto", "status": "pending"}
+{"number": "632", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Female", "public_health_unit": "Toronto", "transmission": "close contact", "city": "Toronto", "status": "self-isolating"}
+{"number": "633", "date": "2020-03-25T10:55:44", "age": 20, "gender": "Female", "public_health_unit": "Peel", "transmission": "close contact", "city": "Peel", "status": "self-isolating"}
+{"number": "634", "date": "2020-03-25T10:55:44", "age": 70, "gender": "Female", "public_health_unit": "Peterborough", "transmission": "travel (USA)", "city": "Peterborough", "status": "self-isolating"}
+{"number": "635", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Female", "public_health_unit": "Peel", "transmission": "travel (Peru)", "city": "Peel", "status": "self-isolating"}
+{"number": "636", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Female", "public_health_unit": "Toronto", "transmission": "close contact", "city": "Toronto", "status": "self-isolating"}
+{"number": "637", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Male", "public_health_unit": "Toronto", "transmission": "travel (USA)", "city": "Toronto", "status": "self-isolating"}
+{"number": "638", "date": "2020-03-25T10:55:44", "age": 20, "gender": "Male", "public_health_unit": "York", "transmission": "close contact", "city": "York", "status": "self-isolating"}
+{"number": "639", "date": "2020-03-25T10:55:44", "age": 20, "gender": "Male", "public_health_unit": "York", "transmission": "travel (UK)", "city": "York", "status": "pending"}
+{"number": "640", "date": "2020-03-25T10:55:44", "age": 40, "gender": "Male", "public_health_unit": "York", "transmission": "close contact", "city": "York", "status": "pending"}
+{"number": "641", "date": "2020-03-25T10:55:44", "age": 40, "gender": "Male", "public_health_unit": "Halton", "transmission": "close contact", "city": "Oakville", "status": "self-isolating"}
+{"number": "642", "date": "2020-03-25T10:55:44", "age": 10, "gender": "Male", "public_health_unit": "Toronto", "transmission": "pending", "city": "Toronto", "status": "self-isolating"}
+{"number": "643", "date": "2020-03-25T10:55:44", "age": 70, "gender": "Male", "public_health_unit": "Toronto", "transmission": "travel (USA)", "city": "Toronto", "status": "self-isolating"}
+{"number": "644", "date": "2020-03-25T10:55:44", "age": 20, "gender": "Male", "public_health_unit": "Peel", "transmission": "pending", "city": "Peel", "status": "self-isolating"}
+{"number": "645", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Female", "public_health_unit": "Kingston Frontenac Lennox Addington", "transmission": "close contact", "city": "Kingston", "status": "self-isolating"}
+{"number": "646", "date": "2020-03-25T10:55:44", "age": 10, "gender": "Male", "public_health_unit": "Peel", "transmission": "pending", "city": "Peel", "status": "self-isolating"}
+{"number": "647", "date": "2020-03-25T10:55:44", "age": 70, "gender": "Male", "public_health_unit": "Peel", "transmission": "travel (Egypt)", "city": "Peel", "status": "pending"}
+{"number": "648", "date": "2020-03-25T10:55:44", "age": 10, "gender": "Male", "public_health_unit": "Peel", "transmission": "pending", "city": "Peel", "status": "self-isolating"}
+{"number": "649", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Male", "public_health_unit": "Toronto", "transmission": "pending", "city": "Toronto", "status": "self-isolating"}
+{"number": "650", "date": "2020-03-25T10:55:44", "age": 30, "gender": "Male", "public_health_unit": "Timiskaming", "transmission": "close contact", "city": "Timiskaming", "status": "self-isolating"}
+{"number": "651", "date": "2020-03-25T10:55:44", "age": 80, "gender": "Female", "public_health_unit": "Toronto", "transmission": "close contact", "city": "Toronto", "status": "self-isolating"}
+{"number": "652", "date": "2020-03-25T10:55:44", "age": 60, "gender": "Male", "public_health_unit": "Peterborough", "transmission": "close contact", "city": "Peterborough", "status": "self-isolating"}
+{"number": "653", "date": "2020-03-25T10:55:44", "age": 20, "gender": "Female", "public_health_unit": "Peel", "transmission": "travel (USA)", "city": "Peel", "status": "self-isolating"}
+{"number": "654", "date": "2020-03-25T10:55:44", "age": 60, "gender": "Male", "public_health_unit": "Peel", "transmission": "close contact", "city": "Peel", "status": "self-isolating"}
+{"number": "655", "date": "2020-03-25T10:55:44", "age": 50, "gender": "Male", "public_health_unit": "Peel", "transmission": "travel (USA)", "city": "Peel", "status": "self-isolating"}
+{"number": "656", "date": "2020-03-25T10:55:44", "age": 20, "gender": "Female", "public_health_unit": "Peel", "transmission": "pending", "city": "Peel", "status": "hospitalized"}
+{"number": "657", "date": "2020-03-25T10:55:44", "age": 20, "gender": "Female", "public_health_unit": "Toronto", "transmission": "travel (UK, USA)", "city": "Toronto", "status": "self-isolating"}
+{"number": "658", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "659", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "660", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "661", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "662", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "663", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "664", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "665", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "666", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "667", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "668", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "669", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "670", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "671", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "672", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "673", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "674", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "675", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "676", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "677", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "678", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "679", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "680", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "681", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "682", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "683", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "684", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "685", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "686", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "687", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
+{"number": "688", "date": "2020-03-25T10:55:44", "age": "pending", "gender": "pending", "public_health_unit": "pending", "transmission": "pending", "city": "pending", "status": "pending"}
