@@ -32,7 +32,7 @@ def main():
         if key in SUMMARY_LABEL_MAP:
             new_total[SUMMARY_LABEL_MAP[key]] = int(item)
         else :
-            new_total[key] = int(item)
+            new_total[key] = int(item.replace(",",""))
 
             
     with open("data/ontario/all_updates.json", 'a') as outfile:

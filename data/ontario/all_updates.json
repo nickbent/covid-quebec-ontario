@@ -37,3 +37,4 @@
 {"deceased": 0, "negative": 5606, "pending": 939, "positive": 98, "resolved": 5, "Total number of patients approved for COVID-19 testing to date": 6648, "date": "2020-03-14T17:30:00"}
 {"date": "2020-03-23T20:37:53", "negative": 19586, "pending": 8417, "positive": 489, "resolved": 8, "deceased": 6, "Total number of patients approved for COVID-19 testing to date": 28506}
 {"date": "2020-03-24T14:15:10", "negative": 21795, "pending": 10074, "positive": 572, "resolved": 8, "deceased": 8, "Total number of patients approved for COVID-19 testing to date": 32457}
+{"date": "2020-03-25T20:25:56", "negative": 24458, "pending": 10489, "positive": 667, "resolved": 8, "deceased": 13, "Total number of patients approved for COVID-19 testing to date": 35635}
