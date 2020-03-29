@@ -30,9 +30,9 @@ def main():
     new_total = {"date": date}
     for key, item in total.items():
         if key in SUMMARY_LABEL_MAP:
-            new_total[SUMMARY_LABEL_MAP[key]] = int(item)
+            new_total[SUMMARY_LABEL_MAP[key]] = int(item.replace(",","").replace("*",""))
         else :
-            new_total[key] = int(item.replace(",",""))
+            new_total[key] = int(item.replace(",","").replace("*",""))
 
             
     with open("data/ontario/all_updates.json", 'a') as outfile:
