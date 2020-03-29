@@ -49,7 +49,7 @@ class TableSpider(scrapy.Spider):
         tables =  page.find_elements(By.TAG_NAME, "tables")
 
         total_table = tables[0].find_elements(By.TAG_NAME, "tbody")
-        rows = total_table.find_elements(By.TAG_NAME, "tr")
+        rows = total_table[0].find_elements(By.TAG_NAME, "tr")
         total = {}
         for row in rows:
             elements = row.find_elements(By.TAG_NAME, "td")
