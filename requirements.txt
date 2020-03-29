@@ -6,3 +6,4 @@ scrapy
 scrapy-wayback-machine
 datetime
 webdrivermanager
+nbconvert
