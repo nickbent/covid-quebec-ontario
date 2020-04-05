@@ -18,14 +18,14 @@ class TableSpider(scrapy.Spider):
         self.driver.get(response.url)
         time.sleep(5)
 
-        self.driver.find_element_by_xpath('//*[@id="exampleHeadingDefault36390"]').click() 
-        table = driver.find_element_by_xpath('//*[@id="c36390"]/table[3]/tbody')
+        self.driver.find_element_by_xpath('//*[@id="exampleHeadingDefault36464"]').click() 
+        table = driver.find_element_by_xpath('//*[@id="c36464"]/div/table[1]/tbody')
         rows = table.find_elements(By.TAG_NAME, "tr")
         
         region = {}
         for row in rows:
             elements = row.find_elements(By.TAG_NAME, "td")
-            region[elements[0].text] = elements[1].text 
+            region[elements[0].text] = (elements[1].text, elements[3].text)
 
         date = dt.now().strftime('%Y-%m-%dT%H:%M:%S')
         path = '../../data/quebec/montreal' +date+ '.json'

@@ -32,39 +32,18 @@ class TableSpider(scrapy.Spider):
         time.sleep(5)
 
         self.data = []
-        self.headers = ["case number", "patient", "public health unit", "transmission", "status"] 
+        #self.headers = ["case number", "patient", "public health unit", "transmission", "status"] 
 
         #Might need these css locators for tables in past
         #//*[@id="pagebody"]/table[2]/tbody
         #//*[@id="pagebody"]/table[3]/tbody
-        page = self.driver.find_element_by_xpath('//*[@id="pagebody"]')
-        tables =  page.find_elements(By.TAG_NAME, "table")
+        table = driver.find_element_by_xpath('//*[@id="pagebody"]/table/tbody')
+        rows = table.find_elements(By.TAG_NAME, "tr")
 
-        total_table = tables[0].find_elements(By.TAG_NAME, "tbody")
-        rows = total_table[0].find_elements(By.TAG_NAME, "tr")
         total = {}
         for row in rows:
             elements = row.find_elements(By.TAG_NAME, "td")
             total[elements[0].text] = elements[1].text
-
-
-        if len(tables) > 0 : 
-
-            for t in tables[1:]:
-                table = t.find_elements(By.TAG_NAME, "tbody")
-
-                self.parse_table(table[0])
-
-
-        else : 
-
-            divisions = page.find_elements(By.TAG_NAME, "div")
-            for div in divisions : 
-                table = div.find_elements(By.TAG_NAME, "tbody")
-                if len(table) == 0 : 
-                    continue
-
-                self.parse_table(table[0])
 
 
         date = dt.now().strftime('%Y-%m-%dT%H:%M:%S')
