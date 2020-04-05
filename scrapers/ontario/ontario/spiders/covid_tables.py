@@ -37,7 +37,7 @@ class TableSpider(scrapy.Spider):
         #Might need these css locators for tables in past
         #//*[@id="pagebody"]/table[2]/tbody
         #//*[@id="pagebody"]/table[3]/tbody
-        table = driver.find_element_by_xpath('//*[@id="pagebody"]/table/tbody')
+        table = self.driver.find_element_by_xpath('//*[@id="pagebody"]/table/tbody')
         rows = table.find_elements(By.TAG_NAME, "tr")
 
         total = {}

@@ -12,7 +12,7 @@ def main(response):
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get(response.url)
 
-    driver.find_element_by_xpath('//*[@id="exampleHeadingDefault36505"]').click() 
+    driver.find_element_by_xpath('//*[@id="exampleAccordionDefault"]').click() 
     table = driver.find_element_by_xpath('//*[@id="c36505"]/div/table[1]/tbody')
     rows = table.find_elements(By.TAG_NAME, "tr")
     
@@ -22,7 +22,20 @@ def main(response):
         region[elements[0].text] = (elements[1].text, elements[3].text)
 
     date = dt.now().strftime('%Y-%m-%dT%H:%M:%S')
-    path = '../../data/quebec/montreal' +date+ '.json'
+    path = 'data/quebec/montreal_ciuss' +date+ '.json'
+    with open(path, 'w') as outfile:
+        json.dump(region, outfile)
+
+    table = driver.find_element_by_xpath('//*[@id="c36505"]/div/table[2]/tbody')
+    rows = table.find_elements(By.TAG_NAME, "tr")
+    
+    region = {}
+    for row in rows:
+        elements = row.find_elements(By.TAG_NAME, "td")
+        region[elements[0].text] = (elements[1].text, elements[3].text)
+
+    date = dt.now().strftime('%Y-%m-%dT%H:%M:%S')
+    path = 'data/quebec/montreal_nhood' +date+ '.json'
     with open(path, 'w') as outfile:
         json.dump(region, outfile)
 
