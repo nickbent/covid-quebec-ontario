@@ -47,11 +47,6 @@ class TableSpider(scrapy.Spider):
 
 
         date = dt.now().strftime('%Y-%m-%dT%H:%M:%S')
-        path = '../../data/ontario/table_person_ontario_' +date+'.jsonl'
-        with open(path, 'w') as outfile:
-            for entry in self.data:
-                json.dump(entry, outfile)
-                outfile.write('\n')
 
         path = '../../data/ontario/total_ontario_' +date+'.json'
         with open(path, 'w') as outfile:

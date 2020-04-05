@@ -13,6 +13,36 @@ SUMMARY_LABEL_MAP = {
     'Deceased': 'deceased',
 }
 
+def map_keys(ontario):
+    d = {}
+    for key, value in ontario.items():
+        if 'Number of cases' in key:
+            d['total'] = int(value.replace(",","").replace("*",""))
+        elif 'Change from previous report' in key :
+            pass
+        elif 'Resolved' in key : 
+            d['resolved'] = int(value.replace(",","").replace("*",""))
+        elif 'Deceased' in key:
+            d['deceased'] = int(value.replace(",","").replace("*",""))
+        elif 'Total Tested' in key : 
+            d["total tested"] = int(value.replace(",","").replace("*",""))
+        elif 'Currently Under Investigation' in key : 
+            d['pending'] = int(value.replace(",","").replace("*",""))
+            
+        elif ' ' == key : 
+            pass
+        elif 'hospitalized' in key :
+            d['hospitalizations'] = int(value.replace(",","").replace("*",""))
+        elif 'ventilator' in key : 
+            d["ventilator"] = int(value.replace(",","").replace("*",""))
+        elif "ICU" in key : 
+            d["ICU"] = int(value.replace(",","").replace("*",""))
+        else :
+            d[key] = int(value.replace(",","").replace("*",""))
+
+            
+    return d
+
 def get_date(file):
     date = file.split("_")[-1].split(".")[0]
     return date
@@ -27,15 +57,10 @@ def main():
 
     date = get_date(total_path)
 
-    new_total = {"date": date}
-    for key, item in total.items():
-        if key in SUMMARY_LABEL_MAP:
-            new_total[SUMMARY_LABEL_MAP[key]] = int(item.replace(",","").replace("*",""))
-        else :
-            new_total[key] = int(item.replace(",","").replace("*",""))
-
-            
-    with open("data/ontario/all_updates.json", 'a') as outfile:
+    new_total = map_keys(total)
+    new_total["date"] = date
+    new_total["positive"] = new_total["total"] - new_total["resolved"] - new_total["deceased"]        
+    with open("data/ontario/updates.jsonl", 'a') as outfile:
         json.dump(new_total, outfile)
         outfile.write('\n')
 
