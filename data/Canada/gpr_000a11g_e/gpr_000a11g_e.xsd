@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fme="http://www.safe.com/gml/fme" targetNamespace="http://www.safe.com/gml/fme" elementFormDefault="qualified">
+<import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
+<element name="gpr_000a11g_e" type="fme:gpr_000a11g_eType" substitutionGroup="gml:_Feature"/>
+<complexType name="gpr_000a11g_eType">
+<complexContent>
+<extension base="gml:AbstractFeatureType">
+<sequence>
+<element name="PRUID" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="2"/>
+</restriction>
+</simpleType></element>
+<element name="PRNAME" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="55"/>
+</restriction>
+</simpleType></element>
+<element name="PRENAME" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="30"/>
+</restriction>
+</simpleType></element>
+<element name="PRFNAME" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="30"/>
+</restriction>
+</simpleType></element>
+<element name="PREABBR" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="10"/>
+</restriction>
+</simpleType></element>
+<element name="PRFABBR" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="10"/>
+</restriction>
+</simpleType></element>
+<element ref="gml:surfaceProperty" minOccurs="0"/>
+<element ref="gml:multiSurfaceProperty" minOccurs="0"/>
+</sequence>
+</extension>
+</complexContent>
+</complexType>
+</schema>
