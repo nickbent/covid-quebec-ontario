@@ -24,11 +24,14 @@ PROVINCES = ['Alberta', 'British Columbia', 'Manitoba',
 
 URL_UOFT = "https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=csv"
 
-def pull_JHU_data(kind="cases",link_dict=JHU_LINKS,province_list=PROVINCES):
+def pull_JHU_data(kind="cases",link_dict=JHU_LINKS,province_list=PROVINCES,keep_Latitudes=False):
     url = link_dict[kind]
     df= pd.read_csv(url)
     df = df[df["Country/Region"]=="Canada"]
     df = df[df['Province/State'].isin( province_list)].set_index("Province/State")
+    df.drop("Country/Region",axis=1,inplace=True)
+    if keep_Latitudes is False:
+        df.drop(["Lat","Long"],axis=1,inplace=True)
     return df
 
 
