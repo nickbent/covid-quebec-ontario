@@ -59,7 +59,8 @@ def main():
 
     new_total = map_keys(total)
     new_total["date"] = date
-    new_total["positive"] = new_total["total"] - new_total["resolved"] - new_total["deceased"]        
+    new_total["positive"] = new_total["total"] - new_total["resolved"] - new_total["deceased"]
+    new_total["negative"] = new_total["total tested"] - new_total["total"]        
     with open("data/ontario/updates.jsonl", 'a') as outfile:
         json.dump(new_total, outfile)
         outfile.write('\n')
