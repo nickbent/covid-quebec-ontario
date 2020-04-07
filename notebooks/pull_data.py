@@ -60,7 +60,7 @@ def pull_JHU_data(link_dict=JHU_LINKS,kind="cases",province_list=PROVINCES,keep_
         DataFrame with the Johns Hopkins data for Canada
     """
 
-    df= pd.read_csv(JHU_LOCAL_LINKS[kind])
+    df= pd.read_csv(JHU_LOCAL_LINKS[kind],index_col=0)
     df = df[df["Country/Region"]=="Canada"]
     df = df[df['Province/State'].isin( province_list)].set_index("Province/State")
     df.drop("Country/Region",axis=1,inplace=True)
