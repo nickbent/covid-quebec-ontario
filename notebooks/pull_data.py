@@ -160,10 +160,13 @@ def update_data_locally():
     
     pd.read_csv(URL_GC).to_csv(GC_LOCAL_LINK)
         
-        
+
+
+UPDATE_DATA = False
     
 if __name__=="__main__":
-    update_data_locally()
+    if UPDATE_DATA is True:
+        update_data_locally()
     
 ## TODO
         
