@@ -11,19 +11,30 @@ import pandas as pd
 
 
 JHU_LINKS = {"cases":"https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv",
-             "deaths":"https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv",
-             "recovered":"https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv"}
-
-
-
+             "deaths":"https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv",
+             "recovered":"https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv"}
 
 URL_GC = "https://health-infobase.canada.ca/src/data/covidLive/covid19.csv"
+
+
+URL_UOFT = "https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=xlsx"
+
+DATA_FOLDER="../data/Canada/"
+
+JHU_LOCAL_LINKS = {s : DATA_FOLDER+"JHU_{}.csv".format(s) for s in ["cases","deaths","recovered"]}
+
+GC_LOCAL_LINK = DATA_FOLDER+"GC.csv"
+
+UOFT_LOCAL_LINKS = {s : DATA_FOLDER + "UofT_{}.csv".format(s) for s in ["cases","deaths","recovered","testing"]}
+
+
+
 
 PROVINCES = ['Alberta', 'British Columbia', 'Manitoba',
        'New Brunswick', 'Newfoundland and Labrador', 'Nova Scotia',
        'Ontario', 'Prince Edward Island', 'Quebec', 'Saskatchewan','Northwest Territories', 'Yukon']
 
-URL_UOFT = "https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/export?format=xlsx"
+
 
 def pull_JHU_data(link_dict=JHU_LINKS,kind="cases",province_list=PROVINCES,keep_LatLong=False,transpose=True):
     """
@@ -48,8 +59,8 @@ def pull_JHU_data(link_dict=JHU_LINKS,kind="cases",province_list=PROVINCES,keep_
     df: pandas DataFrame 
         DataFrame with the Johns Hopkins data for Canada
     """
-    url = link_dict[kind]
-    df= pd.read_csv(url)
+
+    df= pd.read_csv(JHU_LOCAL_LINKS[kind])
     df = df[df["Country/Region"]=="Canada"]
     df = df[df['Province/State'].isin( province_list)].set_index("Province/State")
     df.drop("Country/Region",axis=1,inplace=True)
@@ -62,14 +73,13 @@ def pull_JHU_data(link_dict=JHU_LINKS,kind="cases",province_list=PROVINCES,keep_
 
 
 
-def pull_UofT_data(url=URL_UOFT,kind="cases",drop_repatriated=True):
+def pull_UofT_data(kind="cases",drop_repatriated=True):
     """
     Pull the data from the University of Toronto project
 
     Parameters
     ----------
-    url : 
-        Link to the data source.
+    
     kind : string
         "cases", "deaths", "recovered" or "testing. The default is "cases" 
         
@@ -82,8 +92,7 @@ def pull_UofT_data(url=URL_UOFT,kind="cases",drop_repatriated=True):
         DataFrame with the UofT data
 
     """
-    d = {"cases":"Cases","deaths":"Mortality","recovered":"Recovered","testing":"Testing"}
-    data = pd.read_excel(url, index_col=0, header=3,sheet_name = d[kind])
+    data = pd.read_csv(UOFT_LOCAL_LINKS[kind],index_col=0)
     date_columns = ["date_report","report_week","date_death_report","date_recovered","date_testing"]
     for col in data.columns:
         if col in date_columns:
@@ -97,7 +106,7 @@ def pull_UofT_data(url=URL_UOFT,kind="cases",drop_repatriated=True):
     return data
 
 
-def pull_GC (url = URL_GC):
+def pull_GC (url = GC_LOCAL_LINK):
     data = pd.read_csv(url)
     data.date = pd.to_datetime(data.date,dayfirst=True)
     return data
@@ -129,3 +138,34 @@ def aggregate_UofT(df,by="province"):
     return agg,agg2
     
 
+
+def update_data_locally():
+    """
+    pulls all the data from the online sources and saves them locally.
+
+    Returns
+    -------
+    None.
+
+    """
+    d = {"cases":"Cases","deaths":"Mortality","recovered":"Recovered","testing":"Testing"}
+    
+    for kind, name in d.items():
+        data = pd.read_excel(URL_UOFT, index_col=0, header=3,sheet_name = name)
+        data.to_csv(UOFT_LOCAL_LINKS[kind])
+        
+    for kind, filename in JHU_LOCAL_LINKS.items():
+        df = pd.read_csv(JHU_LINKS[kind])
+        df.to_csv(filename)
+    
+    pd.read_csv(URL_GC).to_csv(GC_LOCAL_LINK)
+        
+        
+    
+if __name__=="__main__":
+    update_data_locally()
+    
+## TODO
+        
+    
+    
