@@ -1,17 +1,21 @@
 date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source,source
-2020-05-04,Alberta,164722.0,,,Alberta,https://www.alberta.ca/covid-19-alberta-data.aspx
-2020-05-03,Alberta,161245.0,,,BC,http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data
-2020-05-02,Alberta,157517.0,,,Manitoba,https://www.gov.mb.ca/covid19/index.html
-2020-05-01,Alberta,153766.0,,,New Brunswick,https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-2020-04-30,Alberta,148937.0,,,NL,https://www.gov.nl.ca/covid-19/
-2020-04-29,Alberta,143886.0,,,Nova Scotia,https://novascotia.ca/coronavirus/#cases
-2020-04-28,Alberta,138681.0,,,Nunavut,https://www.gov.nu.ca/
-2020-04-27,Alberta,135442.0,,,NWT,https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19
-2020-04-26,Alberta,131572.0,,,Ontario,https://www.ontario.ca/page/2019-novel-coronavirus#section-0
-2020-04-25,Alberta,127165.0,,,PEI,https://www.princeedwardisland.ca/en/topic/covid-19
-2020-04-24,Alberta,122447.0,,,Quebec,https://www.msss.gouv.qc.ca/professionnels/maladies-infectieuses/coronavirus-2019-ncov/
-2020-04-23,Alberta,117835.0,,,Saskatchewan,https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
-2020-04-22,Alberta,113499.0,,,Yukon,https://yukon.ca/en/information-about-novel-coronavirus-yukoners
+2020-05-08,Alberta,177559.0,,,Alberta,https://www.alberta.ca/covid-19-alberta-data.aspx
+2020-05-07,Alberta,174327.0,,,BC,http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data
+2020-05-06,Alberta,170509.0,,,Manitoba,https://www.gov.mb.ca/covid19/index.html
+2020-05-05,Alberta,167015.0,,,New Brunswick,https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+2020-05-04,Alberta,164722.0,,,NL,https://www.gov.nl.ca/covid-19/
+2020-05-03,Alberta,161245.0,,,Nova Scotia,https://novascotia.ca/coronavirus/#cases
+2020-05-02,Alberta,157517.0,,,Nunavut,https://www.gov.nu.ca/
+2020-05-01,Alberta,153766.0,,,NWT,https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19
+2020-04-30,Alberta,148937.0,,,Ontario,https://www.ontario.ca/page/2019-novel-coronavirus#section-0
+2020-04-29,Alberta,143886.0,,,PEI,https://www.princeedwardisland.ca/en/topic/covid-19
+2020-04-28,Alberta,138681.0,,,Quebec,https://www.msss.gouv.qc.ca/professionnels/maladies-infectieuses/coronavirus-2019-ncov/
+2020-04-27,Alberta,135442.0,,,Saskatchewan,https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
+2020-04-26,Alberta,131572.0,,,Yukon,https://yukon.ca/en/information-about-novel-coronavirus-yukoners
+2020-04-25,Alberta,127165.0,,,,
+2020-04-24,Alberta,122447.0,,,,
+2020-04-23,Alberta,117835.0,,,,
+2020-04-22,Alberta,113499.0,,,,
 2020-04-21,Alberta,109015.0,,,,
 2020-04-20,Alberta,105317.0,,,,
 2020-04-19,Alberta,101323.0,,,,
@@ -50,6 +54,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,Alberta,12355.0,,,,
 2020-03-16,Alberta,10598.0,,,,
 2020-03-15,Alberta,7108.0,,,,
+2020-05-08,BC,104994.0,,,,
+2020-05-07,BC,102710.0,,,,
+2020-05-06,BC,100093.0,,,,
+2020-05-05,BC,98199.0,,,,
 2020-05-04,BC,96517.0,,,,
 2020-05-03,BC,88670.0,,,,
 2020-05-02,BC,88670.0,,,,
@@ -101,6 +109,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,BC,6326.0,,,,
 2020-03-16,BC,6326.0,,,,
 2020-03-15,BC,6326.0,,,,
+2020-05-08,Manitoba,29343.0,,,,
+2020-05-07,Manitoba,28810.0,,,,
+2020-05-06,Manitoba,28294.0,,,,
+2020-05-05,Manitoba,27775.0,,,,
 2020-05-04,Manitoba,27446.0,,,,
 2020-05-03,Manitoba,26806.0,,,,
 2020-05-02,Manitoba,26169.0,,,,
@@ -152,6 +164,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,Manitoba,2912.0,,,,
 2020-03-16,Manitoba,2280.0,,,,
 2020-03-15,Manitoba,400.0,,,,
+2020-05-08,New Brunswick,17029.0,,,,
+2020-05-07,New Brunswick,16625.0,,,,
+2020-05-06,New Brunswick,16246.0,,,,
+2020-05-05,New Brunswick,15756.0,,,,
 2020-05-04,New Brunswick,15585.0,,,,
 2020-05-03,New Brunswick,15366.0,,,,
 2020-05-02,New Brunswick,15058.0,,,,
@@ -203,6 +219,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,New Brunswick,204.0,,,,
 2020-03-16,New Brunswick,203.0,,,,
 2020-03-15,New Brunswick,,,,,
+2020-05-08,NL,9592.0,,,,
+2020-05-07,NL,9458.0,,,,
+2020-05-06,NL,9296.0,,,,
+2020-05-05,NL,9139.0,,,,
 2020-05-04,NL,8961.0,,,,
 2020-05-03,NL,8833.0,,,,
 2020-05-02,NL,8716.0,,,,
@@ -254,6 +274,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,NL,494.0,,,,
 2020-03-16,NL,161.0,,,,
 2020-03-15,NL,161.0,,,,
+2020-05-08,Nova Scotia,33843.0,,,,
+2020-05-07,Nova Scotia,33296.0,,,,
+2020-05-06,Nova Scotia,32539.0,,,,
+2020-05-05,Nova Scotia,31975.0,,,,
 2020-05-04,Nova Scotia,31426.0,,,,
 2020-05-03,Nova Scotia,30916.0,,,,
 2020-05-02,Nova Scotia,30369.0,,,,
@@ -305,6 +329,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,Nova Scotia,941.0,,,,
 2020-03-16,Nova Scotia,676.0,,,,
 2020-03-15,Nova Scotia,418.0,,,,
+2020-05-08,Ontario,397149.0,,,,
+2020-05-07,Ontario,380854.0,,,,
+2020-05-06,Ontario,365675.0,,,,
+2020-05-05,Ontario,352714.0,,,,
 2020-05-04,Ontario,342060.0,,,,
 2020-05-03,Ontario,327505.0,,,,
 2020-05-02,Ontario,310359.0,,,,
@@ -356,6 +384,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,Ontario,11171.0,,,,
 2020-03-16,Ontario,10178.0,,,,
 2020-03-15,Ontario,8465.0,,,,
+2020-05-08,PEI,3816.0,,,,
+2020-05-07,PEI,3611.0,,,,
+2020-05-06,PEI,3611.0,,,,
+2020-05-05,PEI,3387.0,,,,
 2020-05-04,PEI,3387.0,,,,
 2020-05-03,PEI,3125.0,,,,
 2020-05-02,PEI,3125.0,,,,
@@ -407,6 +439,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,PEI,147.0,,,,
 2020-03-16,PEI,147.0,,,,
 2020-03-15,PEI,78.0,,,,
+2020-05-08,Quebec,272463.0,,,,
+2020-05-07,Quebec,266109.0,,,,
+2020-05-06,Quebec,256171.0,,,,
+2020-05-05,Quebec,244077.0,,,,
 2020-05-04,Quebec,240000.0,,,,
 2020-05-03,Quebec,235629.0,,,,
 2020-05-02,Quebec,229695.0,,,,
@@ -458,6 +494,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,Quebec,7801.0,,,,
 2020-03-16,Quebec,6202.0,,,,
 2020-03-15,Quebec,,,,,
+2020-05-08,Saskatchewan,35176.0,,,,
+2020-05-07,Saskatchewan,34261.0,,,,
+2020-05-06,Saskatchewan,33591.0,,,,
+2020-05-05,Saskatchewan,32921.0,,,,
 2020-05-04,Saskatchewan,32334.0,,,,
 2020-05-03,Saskatchewan,31572.0,,,,
 2020-05-02,Saskatchewan,30845.0,,,,
@@ -509,6 +549,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,Saskatchewan,1107.0,,,,
 2020-03-16,Saskatchewan,1107.0,,,,
 2020-03-15,Saskatchewan,796.0,,,,
+2020-05-08,NWT,1923.0,,,,
+2020-05-07,NWT,1912.0,,,,
+2020-05-06,NWT,1898.0,,,,
+2020-05-05,NWT,1874.0,,,,
 2020-05-04,NWT,1850.0,,,,
 2020-05-03,NWT,1850.0,,,,
 2020-05-02,NWT,1850.0,,,,
@@ -560,6 +604,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,NWT,153.0,,,,
 2020-03-16,NWT,,,,,
 2020-03-15,NWT,,,,,
+2020-05-08,Nunavut,805.0,,,,
+2020-05-07,Nunavut,778.0,,,,
+2020-05-06,Nunavut,778.0,,,,
+2020-05-05,Nunavut,703.0,,,,
 2020-05-04,Nunavut,703.0,,,,
 2020-05-03,Nunavut,602.0,,,,
 2020-05-02,Nunavut,602.0,,,,
@@ -611,6 +659,10 @@ date_testing,province,cumulative_testing,testing_info,Unnamed: 4,province_source
 2020-03-17,Nunavut,,,,,
 2020-03-16,Nunavut,,,,,
 2020-03-15,Nunavut,,,,,
+2020-05-08,Yukon,1075.0,,,,
+2020-05-07,Yukon,1065.0,,,,
+2020-05-06,Yukon,1054.0,,,,
+2020-05-05,Yukon,1041.0,,,,
 2020-05-04,Yukon,1028.0,,,,
 2020-05-03,Yukon,1023.0,,,,
 2020-05-02,Yukon,1019.0,,,,
