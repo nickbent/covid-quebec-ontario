@@ -18,7 +18,7 @@ def main(response):
     region = {}
     for row in rows:
         elements = row.find_elements(By.TAG_NAME, "td")
-        region[elements[0].text] = (elements[1].text, elements[3].text)
+        region[elements[0].text] = (elements[1].text, elements[3].text, elements[4].text)
 
     date = dt.now().strftime('%Y-%m-%dT%H:%M:%S')
     path = 'data/quebec/montreal_ciuss' +date+ '.json'
@@ -31,7 +31,7 @@ def main(response):
     region = {}
     for row in rows:
         elements = row.find_elements(By.TAG_NAME, "td")
-        region[elements[0].text] = (elements[1].text, elements[3].text)
+        region[elements[0].text] = (elements[1].text, elements[3].text, elements[4].text)
 
     date = dt.now().strftime('%Y-%m-%dT%H:%M:%S')
     path = 'data/quebec/montreal_nhood' +date+ '.json'
