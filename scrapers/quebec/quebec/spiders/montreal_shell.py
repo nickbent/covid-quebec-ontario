@@ -14,7 +14,7 @@ def main(response):
     driver.get(response.url)
 
     driver.find_element_by_xpath('//*[@id="exampleAccordionDefault"]').click() 
-    table = driver.find_element_by_xpath('//*[@id="c39958"]/div/table[1]/tbody')
+    table = driver.find_element_by_xpath('//*[@id="c39982"]/div/table[1]/tbody')
     rows = table.find_elements(By.TAG_NAME, "tr")
     region = {}
     for row in rows:
@@ -26,7 +26,7 @@ def main(response):
     with open(path, 'w') as outfile:
         json.dump(region, outfile)
 
-    table = driver.find_element_by_xpath('//*[@id="c39958"]/div/table[2]/tbody')
+    table = driver.find_element_by_xpath('//*[@id="c39982"]/div/table[2]/tbody')
     rows = table.find_elements(By.TAG_NAME, "tr")
     
     region = {}
