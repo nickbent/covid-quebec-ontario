@@ -15,6 +15,11 @@ Updates the latest from https://www.quebec.ca/sante/problemes-de-sante/a-z/coron
 
 does the same thing for Ontario 'https://www.ontario.ca/page/2019-novel-coronavirus'
 
+Currently Ontario is not up to date because the way the stored the data has changed but it will be up to date soon. 
+
+`bash src/scripts/canada.sh`
+
+does the same for Canada level data
 
 For more interaction go to Notebooks but the scripts are all in `src/scripts/make_graphs_` 
 
