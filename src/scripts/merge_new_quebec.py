@@ -56,10 +56,10 @@ def main(date):
     
     add_cases(today, yesterday, cases_path)
     add_cases_region(today,yesterday, cases_region_path)
-    add_deaths_region(today, yesterday, cases_path)
+    add_deaths_region(today, yesterday, deaths_region)
 
     today[26] = yesterday[26]+.11
-    today[25] = 13819
+    today[25] = 17336				
     today[27] = yesterday[27] +1
 
     df[date] = today
