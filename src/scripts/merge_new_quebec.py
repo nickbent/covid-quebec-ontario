@@ -4,6 +4,7 @@ import os
 import datetime
 import argparse
 from datetime import datetime as dt
+import datetime
 
 QUEBEC_PATH = "data/quebec/Quebec_.csv"
 DATA_PATH = "data/quebec/"
@@ -42,15 +43,25 @@ def add_deaths_region(today, yesterday, deaths_region_path):
         deaths = json.load( outfile)
     today[24] = string_to_float(deaths['Total'])
 
+def add_suffix_date(date):
+    if date[-1] == '1':
+        date = date + "st"
+    elif date[-1] == '2': 
+        date = date + "nd"
+    elif date[-1] == '3':
+        date = date + "rd"
+    else :
+        date = date + 'th'
+    return date
 
 def main(recovered):
 
     df = pd.read_csv(QUEBEC_PATH)
     regions_df = df[:19]
     dates = list(regions_df)[1:]
-    dates = [dt.strptime(d, '%B %d') for d in dates]
-    date = dates[-1] +dt.timedelta(days=1)
+    date = dt.strptime(dates[-1][:-2], '%B %d')  +datetime.timedelta(days=1)
     date = date.strftime("%B %d")
+    date = add_suffix_date(date)
 
     yesterday = list(df[list(df)[-1]])
     today = [0]*30
@@ -66,7 +77,7 @@ def main(recovered):
     add_deaths_region(today, yesterday, deaths_region)
 
     today[26] = yesterday[26]+.11
-    today[25] = recovered				
+    today[25] = float(recovered)			
     today[27] = yesterday[27] +1
 
     df[date] = today
