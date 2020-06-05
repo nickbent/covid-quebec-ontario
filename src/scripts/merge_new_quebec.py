@@ -3,6 +3,7 @@ import json
 import os
 import datetime
 import argparse
+from datetime import datetime as dt
 
 QUEBEC_PATH = "data/quebec/Quebec_.csv"
 DATA_PATH = "data/quebec/"
@@ -42,9 +43,15 @@ def add_deaths_region(today, yesterday, deaths_region_path):
     today[24] = string_to_float(deaths['Total'])
 
 
-def main(date, recovered):
+def main(recovered):
 
     df = pd.read_csv(QUEBEC_PATH)
+    regions_df = df[:19]
+    dates = list(regions_df)[1:]
+    dates = [dt.strptime(d, '%B %d') for d in dates]
+    date = dates[-1] +dt.timedelta(days=1)
+    date = date.strftime("%B %d")
+
     yesterday = list(df[list(df)[-1]])
     today = [0]*30
 
@@ -67,9 +74,6 @@ def main(date, recovered):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "date", type=str, help="Todays date in Month Day i.e. May 21st"
-    )
     parser.add_argument(
         "recovered", type=str, help="Number of people recovered"
     )
