@@ -6,12 +6,17 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import json
 from datetime import datetime as dt 
+import sys
+
+print("Deprecated, use montreal_csv.py instead")
+sys.exit(-1)
+
 
 #driver = webdriver.Chrome(ChromeDriverManager().install())
-driver = webdriver.Chrome(executable_path='/Users/chocholatethunder/.wdm/drivers/chromedriver/mac64/chromedriver' )
+driver = webdriver.Chrome()
 driver.get(response.url)
 
-driver.find_element_by_xpath('//*[@id="exampleAccordionDefault"]').click() 
+driver.find_element_by_xpath('//*[@id="exampleAccordionDefault"]').click()
 table = driver.find_element_by_xpath('//*[@id="c41642"]/div/table[1]/tbody')
 rows = table.find_elements(By.TAG_NAME, "tr")
 region = {}
