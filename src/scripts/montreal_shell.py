@@ -6,7 +6,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import json
 from datetime import datetime as dt 
-
+import sys
+print("Deprecated, use montreal_csv.py instead")
+sys.exit(-1)
 #driver = webdriver.Chrome(ChromeDriverManager().install())
 driver = webdriver.Chrome(executable_path='/Users/chocholatethunder/.wdm/drivers/chromedriver/mac64/chromedriver' )
 driver.get(response.url)
