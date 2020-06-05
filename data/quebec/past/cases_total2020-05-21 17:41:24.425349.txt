@@ -1,0 +1,11 @@
+Prélèvements effectués le 19 mai 20201 : 12 166
+Analyses réalisées le 19 mai 20201 : 11 599
+Cas négatifs2 : 314 247
+Cas confirmés2 : 45 495
+1 : Les plus récentes données journalières sur les prélèvements et les analyses réalisés sont disponibles avec un délai de 48 heures.
+2 : Donnée cumulative. Source : Infocentre de santé publique (LSPQ et laboratoires suprarégionaux), 20 mai 2020, 18 h.
+Nombre d’hospitalisations régulières : 1 328
+Nombre en soins intensifs : 176
+Nombre total d’hospitalisations1 : 1 504
+1 : Donnée journalière. Source : Transmissions préliminaires de MED-ÉCHO, données déclarées par les centres hospitaliers, le 20 mai 2020 à 18 h.
+Note : À partir du 19 mai, le nombre de patients guéris qui demeurent à l’hôpital parce qu’ils sont en attente d’une place pour être transférés a été exclu du total des hospitalisations. Avec le retrait de ces patients, il y a une diminution importante du nombre d'hospitalisations régulières, mais aucune diminution du nombre d’hospitalisations aux soins intensifs.

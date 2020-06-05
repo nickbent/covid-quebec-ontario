@@ -1,0 +1,10 @@
+Prélèvements effectués le 17 mai 20201 : 9 534
+Analyses réalisées le 17 mai 20201 : 10 203
+Cas négatifs2 : 302 358
+Cas confirmés2 : 44 197
+1 : Les plus récentes données journalières sur les prélèvements et les analyses réalisés sont disponibles avec un délai de 48 heures.
+2 : Donnée cumulative. Source : Infocentre de santé publique (LSPQ et laboratoires suprarégionaux), 18 mai 2020, 18 h.
+Nombre d’hospitalisations régulières : 1 604
+Nombre en soins intensifs : 180
+Nombre total d’hospitalisations1 : 1 784
+1 : Donnée journalière. Source : Transmissions préliminaires de MED-ÉCHO, données déclarées par les centres hospitaliers, le 18 mai 2020 à 18 h.

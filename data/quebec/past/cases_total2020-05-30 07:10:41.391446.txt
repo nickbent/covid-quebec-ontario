@@ -1,0 +1,10 @@
+Prélèvements effectués le 27 mai 20201 : 14 951
+Analyses réalisées le 27 mai 20201 : 14 753
+Cas négatifs2 : 373 567
+Cas confirmés2 : 50 232
+1 : Les plus récentes données journalières sur les prélèvements et les analyses réalisés sont disponibles avec un délai de 48 heures.
+2 : Donnée cumulative. Source : Infocentre de santé publique (LSPQ et laboratoires suprarégionaux), 28 mai 2020, 18 h.
+Nombre d’hospitalisations régulières : 1 093
+Nombre en soins intensifs : 172
+Nombre total d’hospitalisations1 : 1 265
+1 : Donnée journalière. Source : Transmissions préliminaires de MED-ÉCHO, données déclarées par les centres hospitaliers, le 28 mai 2020 à 18 h. Les centres hospitaliers retenus sont les centres hospitaliers de soins généraux et spécialisés offrant majoritairement des soins aigus.

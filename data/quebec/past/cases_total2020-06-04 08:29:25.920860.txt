@@ -1,0 +1,10 @@
+Prélèvements effectués le 1er juin 20201 : 10 173
+Analyses réalisées le 1er juin 20201 : 9 646
+Cas négatifs2 : 410 793
+Cas confirmés2 : 51 884
+1 : Les plus récentes données journalières sur les prélèvements et les analyses réalisés sont disponibles avec un délai de 48 heures.
+2 : Donnée cumulative. Source : Infocentre de santé publique (LSPQ et laboratoires suprarégionaux), 2 juin 2020, 18 h.
+Nombre d’hospitalisations régulières : 983
+Nombre en soins intensifs : 158
+Nombre total d’hospitalisations1 : 1 141
+1 : Donnée journalière. Source : Transmissions préliminaires de MED-ÉCHO, données déclarées par les centres hospitaliers, le 2 juin 2020 à 18 h. Les centres hospitaliers retenus sont les centres hospitaliers de soins généraux et spécialisés offrant majoritairement des soins aigus.
