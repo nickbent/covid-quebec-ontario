@@ -42,7 +42,7 @@ def add_deaths_region(today, yesterday, deaths_region_path):
     today[24] = string_to_float(deaths['Total'])
 
 
-def main(date):
+def main(date, recovered):
 
     df = pd.read_csv(QUEBEC_PATH)
     yesterday = list(df[list(df)[-1]])
@@ -59,7 +59,7 @@ def main(date):
     add_deaths_region(today, yesterday, deaths_region)
 
     today[26] = yesterday[26]+.11
-    today[25] = 17336				
+    today[25] = recovered				
     today[27] = yesterday[27] +1
 
     df[date] = today
@@ -69,6 +69,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "date", type=str, help="Todays date in Month Day i.e. May 21st"
+    )
+    parser.add_argument(
+        "recovered", type=str, help="Number of people recovered"
     )
 
     main(**vars(parser.parse_args()))
