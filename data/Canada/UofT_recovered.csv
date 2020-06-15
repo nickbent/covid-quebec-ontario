@@ -1,17 +1,20 @@
 date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_source,source
-2020-06-11,Alberta,6788.0,,,Alberta,https://www.alberta.ca/covid-19-alberta-data.aspx
-2020-06-10,Alberta,6754.0,,,BC,http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
-2020-06-09,Alberta,6722.0,,,Manitoba,https://www.gov.mb.ca/covid19/index.html
-2020-06-08,Alberta,6698.0,,,New Brunswick,https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-2020-06-07,Alberta,6656.0,,,NL,https://www.gov.nl.ca/covid-19/
-2020-06-06,Alberta,6656.0,,,Nova Scotia,https://novascotia.ca/coronavirus/#cases
-2020-06-05,Alberta,6624.0,,,Nunavut,https://www.gov.nu.ca/
-2020-06-04,Alberta,6611.0,,,NWT,https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19
-2020-06-03,Alberta,6587.0,,,Ontario,https://www.ontario.ca/page/2019-novel-coronavirus#section-0
-2020-06-02,Alberta,6537.0,,,PEI,https://www.princeedwardisland.ca/en/topic/covid-19
-2020-06-01,Alberta,6501.0,,,Quebec,https://www.msss.gouv.qc.ca/professionnels/maladies-infectieuses/coronavirus-2019-ncov/
-2020-05-31,Alberta,6283.0,,,Saskatchewan,https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
-2020-05-30,Alberta,6245.0,,,Yukon,https://yukon.ca/en/information-about-novel-coronavirus-yukoners
+2020-06-14,Alberta,6861.0,,,Alberta,https://www.alberta.ca/covid-19-alberta-data.aspx
+2020-06-13,Alberta,6830.0,,,BC,http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+2020-06-12,Alberta,6811.0,,,Manitoba,https://www.gov.mb.ca/covid19/index.html
+2020-06-11,Alberta,6788.0,,,New Brunswick,https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+2020-06-10,Alberta,6754.0,,,NL,https://www.gov.nl.ca/covid-19/
+2020-06-09,Alberta,6722.0,,,Nova Scotia,https://novascotia.ca/coronavirus/#cases
+2020-06-08,Alberta,6698.0,,,Nunavut,https://www.gov.nu.ca/
+2020-06-07,Alberta,6656.0,,,NWT,https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19
+2020-06-06,Alberta,6656.0,,,Ontario,https://www.ontario.ca/page/2019-novel-coronavirus#section-0
+2020-06-05,Alberta,6624.0,,,PEI,https://www.princeedwardisland.ca/en/topic/covid-19
+2020-06-04,Alberta,6611.0,,,Quebec,https://www.msss.gouv.qc.ca/professionnels/maladies-infectieuses/coronavirus-2019-ncov/
+2020-06-03,Alberta,6587.0,,,Saskatchewan,https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
+2020-06-02,Alberta,6537.0,,,Yukon,https://yukon.ca/en/information-about-novel-coronavirus-yukoners
+2020-06-01,Alberta,6501.0,,,,
+2020-05-31,Alberta,6283.0,,,,
+2020-05-30,Alberta,6245.0,,,,
 2020-05-29,Alberta,6220.0,,,,
 2020-05-28,Alberta,6160.0,,,,
 2020-05-27,Alberta,6106.0,,,,
@@ -120,6 +123,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,Alberta,,,,,
 2020-02-13,Alberta,,,,,
 2020-02-12,Alberta,,,,,
+2020-06-14,BC,2354.0,,,,
+2020-06-13,BC,2354.0,,,,
+2020-06-12,BC,2354.0,,,,
 2020-06-11,BC,2344.0,,,,
 2020-06-10,BC,2328.0,,,,
 2020-06-09,BC,2319.0,,,,
@@ -241,6 +247,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,BC,0.0,,,,
 2020-02-13,BC,0.0,,,,
 2020-02-12,BC,0.0,,,,
+2020-06-14,Manitoba,289.0,,,,
+2020-06-13,Manitoba,289.0,,,,
+2020-06-12,Manitoba,289.0,,,,
 2020-06-11,Manitoba,286.0,,,,
 2020-06-10,Manitoba,285.0,,,,
 2020-06-09,Manitoba,285.0,,,,
@@ -362,6 +371,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,Manitoba,,,,,
 2020-02-13,Manitoba,,,,,
 2020-02-12,Manitoba,,,,,
+2020-06-14,New Brunswick,129.0,,,,
+2020-06-13,New Brunswick,126.0,,,,
+2020-06-12,New Brunswick,125.0,,,,
 2020-06-11,New Brunswick,123.0,,,,
 2020-06-10,New Brunswick,121.0,,,,
 2020-06-09,New Brunswick,121.0,,,,
@@ -483,6 +495,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,New Brunswick,,,,,
 2020-02-13,New Brunswick,,,,,
 2020-02-12,New Brunswick,,,,,
+2020-06-14,NL,256.0,,,,
+2020-06-13,NL,256.0,,,,
+2020-06-12,NL,256.0,,,,
 2020-06-11,NL,256.0,,,,
 2020-06-10,NL,256.0,,,,
 2020-06-09,NL,256.0,,,,
@@ -604,6 +619,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,NL,,,,,
 2020-02-13,NL,,,,,
 2020-02-12,NL,,,,,
+2020-06-14,Nova Scotia,996.0,,,,
+2020-06-13,Nova Scotia,996.0,,,,
+2020-06-12,Nova Scotia,995.0,,,,
 2020-06-11,Nova Scotia,995.0,,,,
 2020-06-10,Nova Scotia,994.0,,,,
 2020-06-09,Nova Scotia,994.0,,,,
@@ -725,6 +743,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,Nova Scotia,,,,,
 2020-02-13,Nova Scotia,,,,,
 2020-02-12,Nova Scotia,,,,,
+2020-06-14,Ontario,26961.0,,,,
+2020-06-13,Ontario,26538.0,,,,
+2020-06-12,Ontario,26187.0,,,,
 2020-06-11,Ontario,25885.0,,,,
 2020-06-10,Ontario,25380.0,,,,
 2020-06-09,Ontario,24829.0,,,,
@@ -846,6 +867,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,Ontario,1.0,,,,
 2020-02-13,Ontario,1.0,,,,
 2020-02-12,Ontario,1.0,,,,
+2020-06-14,PEI,27.0,,,,
+2020-06-13,PEI,27.0,,,,
+2020-06-12,PEI,27.0,,,,
 2020-06-11,PEI,27.0,,,,
 2020-06-10,PEI,27.0,,,,
 2020-06-09,PEI,27.0,,,,
@@ -967,6 +991,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,PEI,,,,,
 2020-02-13,PEI,,,,,
 2020-02-12,PEI,,,,,
+2020-06-14,Quebec,21742.0,,,,
+2020-06-13,Quebec,21281.0,,,,
+2020-06-12,Quebec,20823.0,,,,
 2020-06-11,Quebec,20299.0,,,,
 2020-06-10,Quebec,19841.0,,,,
 2020-06-09,Quebec,19361.0,,,,
@@ -1088,6 +1115,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,Quebec,,,,,
 2020-02-13,Quebec,,,,,
 2020-02-12,Quebec,,,,,
+2020-06-14,Saskatchewan,628.0,,,,
+2020-06-13,Saskatchewan,628.0,,,,
+2020-06-12,Saskatchewan,627.0,,,,
 2020-06-11,Saskatchewan,626.0,,,,
 2020-06-10,Saskatchewan,624.0,,,,
 2020-06-09,Saskatchewan,624.0,,,,
@@ -1209,6 +1239,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,Saskatchewan,,,,,
 2020-02-13,Saskatchewan,,,,,
 2020-02-12,Saskatchewan,,,,,
+2020-06-14,NWT,5.0,,,,
+2020-06-13,NWT,5.0,,,,
+2020-06-12,NWT,5.0,,,,
 2020-06-11,NWT,5.0,,,,
 2020-06-10,NWT,5.0,,,,
 2020-06-09,NWT,5.0,,,,
@@ -1330,6 +1363,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,NWT,,,,,
 2020-02-13,NWT,,,,,
 2020-02-12,NWT,,,,,
+2020-06-14,Nunavut,,,,,
+2020-06-13,Nunavut,,,,,
+2020-06-12,Nunavut,,,,,
 2020-06-11,Nunavut,,,,,
 2020-06-10,Nunavut,,,,,
 2020-06-09,Nunavut,,,,,
@@ -1451,6 +1487,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,Nunavut,,,,,
 2020-02-13,Nunavut,,,,,
 2020-02-12,Nunavut,,,,,
+2020-06-14,Yukon,11.0,,,,
+2020-06-13,Yukon,11.0,,,,
+2020-06-12,Yukon,11.0,,,,
 2020-06-11,Yukon,11.0,,,,
 2020-06-10,Yukon,11.0,,,,
 2020-06-09,Yukon,11.0,,,,
@@ -1572,6 +1611,9 @@ date_recovered,province,cumulative_recovered,Unnamed: 3,Unnamed: 4,province_sour
 2020-02-14,Yukon,,,,,
 2020-02-13,Yukon,,,,,
 2020-02-12,Yukon,,,,,
+2020-06-14,Repatriated,13.0,,,,
+2020-06-13,Repatriated,13.0,,,,
+2020-06-12,Repatriated,13.0,,,,
 2020-06-11,Repatriated,13.0,,,,
 2020-06-10,Repatriated,13.0,,,,
 2020-06-09,Repatriated,13.0,,,,
